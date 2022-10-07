@@ -1,0 +1,2035 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_1" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1" output_port_id="input_1:0" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/zero_padding2d/Pad" output_port_id="StatefulPartitionedCall/functional_1/zero_padding2d/Pad:0" />
+		<IR name="StatefulPartitionedCall/functional_1/zero_padding2d/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/zero_padding2d/Pad" output_port_id="StatefulPartitionedCall/functional_1/zero_padding2d/Pad:0" />
+		<IR name="StatefulPartitionedCall/functional_1/zero_padding2d/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu/LeakyRelu" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad" output_port_id="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad:0" />
+		<IR name="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad" output_port_id="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad:0" />
+		<IR name="StatefulPartitionedCall/functional_1/zero_padding2d_1/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_1/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_1/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_1/LeakyRelu_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_2/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_2/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_2/LeakyRelu_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split/split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split/split:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split/split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split/split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split/split:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split/split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_3/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_3/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_3/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_3/LeakyRelu_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_4/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_4/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_4/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_4/LeakyRelu_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_5/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_5/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_5/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_5/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_5/LeakyRelu_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_1/concat_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_6/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_6/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_6/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_6/LeakyRelu_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_1/split_1" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_7/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_7/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_7/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_7/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_7/LeakyRelu_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_8/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_8/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_8/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_8/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_8/LeakyRelu_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_2/concat_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_9/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_9/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_9/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_9/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_9/LeakyRelu_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_3/concat_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d_1/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_10/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_10/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_10/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_10/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_10/LeakyRelu_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_2/split_2" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_11/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_11/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_11/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_11/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_11/LeakyRelu_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_12/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_12/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_12/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_12/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_12/LeakyRelu_12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_4/concat_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_13/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_13/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_13/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_13/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_5/concat_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool" output_port_id="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/functional_1/max_pooling2d_2/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_14/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_14/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_14/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_14/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_14/LeakyRelu_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_15/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_15/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_15/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_15/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_15/LeakyRelu_15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_18/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_18/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_18/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_17/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_17/LeakyRelu_17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13/Shape/Gathered" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear/size:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13/Shape/Gathered" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear/size" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear/size:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_13/LeakyRelu_13/Shape/Gathered" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_ResizeBilinear/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_6/concat_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_19/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_19/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_19/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_18/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_18/LeakyRelu_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/Add/Transpose" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/Add/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd" output_port_id="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_20/BiasAdd/Add/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/shape/Reshape/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/shape/Reshape/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/shape/Reshape/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape/Reshape/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:2" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:2" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:3" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="6" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3:3" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_3/split_3" output_port_id="6" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid/Sigmoid" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul/Mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub/Sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile/input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="18111" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/multiples/Tile/multiples:0" />
+		<IR name="18111" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/multiples/Tile/multiples" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/multiples/Tile/multiples:0" />
+		<IR name="18111" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile/Tile" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2/TransposeNHWCtoNCHW" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Cast/Cast:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2/TransposeNHWCtoNCHW" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Cast/Cast" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Cast/Cast:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2/TransposeNHWCtoNCHW" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2/AddV2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_1/Mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp/Exp" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_2/Mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_7/concat_7/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/shape/Reshape_2/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/shape/Reshape_2/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/shape/Reshape_2/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_2/Reshape_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/functional_1/conv2d_16/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_16/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_16/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/batch_normalization_16/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_LeakyRelu_16/LeakyRelu_16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/Add/Transpose" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/Add/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd" output_port_id="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/functional_1/conv2d_17/BiasAdd/Add/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_1/Shape_1/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_1/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/shape/Reshape_3/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/shape/Reshape_3/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/shape/Reshape_3/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_3/Reshape_3/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:2" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:2" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:3" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="6" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4:3" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_4/split_4" output_port_id="6" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_3/Sigmoid_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_4/Mul_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_1/Sub_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1/input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="18115" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/multiples/Tile_1/multiples:0" />
+		<IR name="18115" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/multiples/Tile_1/multiples" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/multiples/Tile_1/multiples:0" />
+		<IR name="18115" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Tile_1/Tile_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1/TransposeNHWCtoNCHW" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Cast_1/Cast_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1/TransposeNHWCtoNCHW" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Cast_1/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Cast_1/Cast_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1/TransposeNHWCtoNCHW" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_1/AddV2_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_5/Mul_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Exp_1/Exp_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_6/Mul_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_8/concat_8/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/shape/Reshape_5/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/shape/Reshape_5/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/shape/Reshape_5/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_5/Reshape_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_9/concat_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_2/Shape_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_2/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod/Prod" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1/Unsqueeze" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/values_1/concat_11/values_1/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_4/Shape_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_4/strided_slice_4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/concat_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/concat_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_11/concat_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_6/Reshape_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_1/Sigmoid_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_2/Sigmoid_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_3/Mul_3/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/shape/Reshape_1/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/shape/Reshape_1/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/shape/Reshape_1/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_1/Reshape_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_4/Sigmoid_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sigmoid_5/Sigmoid_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7/Transpose" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Mul_7/Mul_7/Transpose" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/shape/Reshape_4/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/shape/Reshape_4/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/shape/Reshape_4/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_4/Reshape_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_10/concat_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Max/Max" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GreaterEqual/GreaterEqual" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7/shape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_7/Reshape_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze/Squeeze:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze/Squeeze" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze/Squeeze:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2/axis" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2/GatherV2" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_8/Shape_8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_8/strided_slice_8" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_9/Shape_9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_9/strided_slice_9" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/shape/Reshape_10/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/shape/Reshape_10/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/shape/Reshape_10/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_10/Reshape_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5/size_splits" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5:1" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_split_5/split_5" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_12/strided_slice_12" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_13/strided_slice_13" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv/Fused_Mul_" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv/Fused_Mul_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv/RealDiv/Fused_Mul_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Sub_2/Sub_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_1/RealDiv_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_15/strided_slice_15:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_15/strided_slice_15" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_15/strided_slice_15:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_14/strided_slice_14/Split" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_2/RealDiv_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_AddV2_2/AddV2_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_RealDiv_3/RealDiv_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_17/strided_slice_17:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_17/strided_slice_17" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_17/strided_slice_17:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_16/strided_slice_16/Split" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_13/concat_13" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_5/Shape_5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_5/strided_slice_5" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1/reduction_indices" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Prod_1/Prod_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1/Unsqueeze" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/values_1/concat_12/values_1/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_7/Shape_7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_7/strided_slice_7" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/concat_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/concat_12" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_12/concat_12:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_8/Reshape_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9/shape" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_9/Reshape_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze_1/Squeeze_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze_1/Squeeze_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Squeeze_1/Squeeze_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1/axis" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_GatherV2_1/GatherV2_1" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_10/Shape_10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_10/strided_slice_10" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Shape_11/Shape_11" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/begin" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/end" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11/strides" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_strided_slice_11/strided_slice_11" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11/Cast_1" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/shape/Reshape_11/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/shape/Reshape_11/shape" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/shape/Reshape_11/shape:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_Reshape_11/Reshape_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="Func/StatefulPartitionedCall/output/_100:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_100" output_port_id="Func/StatefulPartitionedCall/output/_100:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Func/StatefulPartitionedCall/output/_100:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Func/StatefulPartitionedCall/output/_100:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="Func/StatefulPartitionedCall/output/_100:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_100" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_100" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_100" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14:0" />
+		<IR name="StatefulPartitionedCall/functional_1/tf_op_layer_concat_14/concat_14" output_port_id="2" />
+	</map>
+</mapping>
